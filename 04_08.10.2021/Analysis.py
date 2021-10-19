@@ -33,9 +33,9 @@ def str_list(spisok):
     Lowercase_letters = ll / (bb + ll + oo) * 100
     Equality_of_letters = oo / (bb + ll + oo) * 100
     print(spisok)
-    print('Процент строк, где заглавных букв больше: ', Capital_letters, '%', sep = '')
-    print('Процент строк, где строчных букв больше: ', Lowercase_letters, '%', sep = '')
-    print('Процент строк, где их одинаково: ', Equality_of_letters, '%', sep = '')
+    print('Процент слов, где заглавных букв больше: ', Capital_letters, '%', sep = '')
+    print('Процент слов, где строчных букв больше: ', Lowercase_letters, '%', sep = '')
+    print('Процент слов, где их одинаково: ', Equality_of_letters, '%', sep = '')
 
 rand_strok = rand_strok(10)
 str(rand_strok)
